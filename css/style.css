@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    color: #666;
+
+}
+#myCarousel{
+    margin: 70px 0 0;
+}
+.carousel-inner img
+{
+    margin: 0 auto;
+}
+.container2{
+    min-width: 300px;
+    height: 80px;
+}
+.tab-h2{
+    color: #0059B2;
+    text-align: center;
+    letter-spacing:0;
+}
+.tab-p{
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 20px 0 40px 0;
+}
+.tab1{
+    margin: 30px;
+    color: #6666;
+}
+.tab2 .media-heading{
+    margin: 5px 0 20px 0;
+}
+.navbar-toggle{
+
+    margin-right: 50px;
+}
+.tab3-text{
+    color: #333333;
+}
+@media (min-width:200px) {
+    .tab-h3
+    {
+        font-size: 12px;
+    }
+    .tab-p {
+        font-size: 1px;
+    }
+    .text h4 {
+        font-size: 22px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+    .jumbotron h1{
+        font-size: 30px;
+    }
+    .jumbotron h4{
+        font-size: 12px;
+    }
+
+    #about h3{
+        font-size: 14px;
+    }
+    #about p{
+        font-size: 10px;
+    }
+    .daohang{
+        margin-top: 30px;
+
+        background: #cccccc;
+    }
+}
+@media (min-width:768px) {
+    .tab-h3
+    {
+        font-size: 15px;
+    }
+    .tab-p {
+        font-size: 1px;
+    }
+    .text h4 {
+        font-size: 22px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+
+    .tab3-img {
+        float:right;
+    }
+    .tab3-text{
+        margin-top: 100px;
+    }
+    .jumbotron h1{
+        font-size: 32px;
+    }
+    .jumbotron h4{
+        font-size: 14px;
+    }
+    #about h3{
+        font-size: 18px;
+    }
+    #about p{
+        font-size: 13px;
+    }
+    .daohang{
+        margin-top: 30px;
+
+        background: #cccccc;
+    }
+}
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+    .daohang{
+        margin-top: 30px;
+        padding-right: 50px;
+        background: #cccccc;
+    }
+    .tab-h3 {
+        font-size: 28px;
+    }
+    .tab-p {
+        font-size: 17px;
+    }
+    .text h4{
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+    .jumbotron h1{
+        font-size: 34px;
+    }
+    .jumbotron h4{
+        font-size: 16px;
+    }
+    .info-content h4{
+        font-size: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    #about h3{
+        font-size: 20px;
+    }
+    #about p{
+        font-size: 15px;
+    }
+}
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px)
+{
+    .daohang{
+        margin-top: 30px;
+        padding-right: 50px;
+        background: #cccccc;
+    }
+    .tab-h3{
+        font-size: 30px;
+    }
+    .tab-p {
+        font-size: 18px;
+    }
+    .text h4 {
+        font-size: 26px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    #about h3 {
+        font-size: 22px;
+    }
+    .jumbotron h1{
+        font-size: 36px;
+    }
+    .jumbotron h4{
+        font-size: 18px;
+}
+
+    #about h3{
+        font-size: 22px;
+    }
+    #about p{
+        font-size: 16px;
+    }
+}
+.tab3{
+    background:#E6DDDB;
+    text-align: center;
+
+}
+.tab4{
+   text-align: center;
+}
+.tab3-img{
+    width: 35%;
+    height:35%;
+}
+.tab4-img{
+    width: 90%;
+    height: 90%;
+}
+.media{
+    padding: 10px 0;
+}
+#footer {
+    background-color: #666;
+    border-top: 1px solid #ccc;
+    padding: 30px;
+
+    text-align: center;
+    color: #eee;
+}
+.tab4-text{
+    margin-top: 80px;
+}
+.jumbotron{
+    background-image: url(../images/bg.jpg);
+    margin: 50px 0 0;
+    color: #cccccc;
+}
+#information{
+    background-color: #cccccc;
+}
+.info-content{
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 2px 2px 3px #ccc ;
+}
+.info-content img{
+    margin: 5px 0;
+}
+.info-content h4{
+    color: #333333;
+}
+.info-content p{
+    color: #333333;
+    line-height: 20px;
+}
+.info-right{
+    margin:20px 0;
+    background:white;
+    box-shadow: 2px 3px 3px #cccccc ;
+}
+.info-right blockquote{
+
+    margin: 0;
+    padding: 0;
+
+}
+.info-right h2{
+    font-size: 20px;
+    color: #333333;
+    padding: 5px;
+}
+.info-right h4{
+   font-size: 16px;
+}
+#case{
+    padding: 100px 0;
+    background-color: #eeeeee;
+    text-align: center;
+}
+#case h4{
+    color: #333333;
+
+}
+#case p{
+    color: #666666;
+    line-height: 1.6;
+}
+#about{
+    background-color: #eeeeee;
+    padding: 40px 0;
+}
+#about a{
+color: #0059B2;
+
+}
+#about h3{
+    padding: 20px 0;
+    margin: 0;
+}
+#about p{
+    line-height: 1.6;
+}
